@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <title>Slow lib</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="index.js"></script>
+<body>
+    <div>
+        <h1>Slow Loader</h1>
+        <p>Library that forces image to load slowly.</p>
+        <p>just like in the old days.</p>
+        <p>check console.</p>
+    </div>
+
+    <img src="https://picsum.photos/200/300" alt="LA" style="width:250px">
+
+
+
+</body>
+
+<script>
+    setTimeout(function() {
+        var test = document.createElement('img');
+        test.src = "https://picsum.photos/300/300";
+        document.body.append(test);
+    }, 1000)
+
+    console.log([
+        '// Example code to add new images',
+        '',
+        'var img= document.createElement(\'img\');',
+        'img.src = "https://picsum.photos/300/300";',
+        'document.body.append(img);',
+    ].join('\n'))
+
+</script>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "slow-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terncode/slow-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terncode/slow-loader/issues"
+  },
+  "homepage": "https://github.com/Terncode/slow-loader#readme",
+  "dependencies": {
+    "esbuild": "^0.20.1"
+  }
+}
